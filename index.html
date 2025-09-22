@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="css/helper.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
 </head>
+
 <body>
-    
+    <div class="overlay"></div>
+    <main class="f-s-c-c">
+        <div class="main-wrapper f-s-c-c">
+            <div class="main__research f-c-c-c">
+                <h1>TODO LIST</h1>
+                <div class="research-elements f-c-c-r">
+                    <input class="classic-input" type="text" placeholder="Search note...">
+                    <button class="btn-filter"></button>
+                    <button class="btn-theme"></button>
+                </div>
+            </div>
+            <div class="main__content">
+                <div class="empty-block f-c-c-c">
+                    <img src="img/empty.png" alt="Empty">
+                    <h3>Empty...</h3>
+                </div>
+                <div class="notes-wrapper f-s-c-c"></div>
+            </div>
+
+            <div class="new-note-window f-c-c-c">
+                <h1>NEW NOTE</h1>
+                <div class="new-note__content f-sb-c-c">
+                    <input class="classic-input new-note-input" type="text" placeholder="Input your note...">
+                    <div class="new-note__buttons f-sb-c-r">
+                        <button class="new-note__cancel new-note__btn">CANCEL</button>
+                        <button class="new-note__apply new-note__btn">APPLY</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="edit-note-window f-c-c-c">
+                <h1>EDIT NOTE</h1>
+                <div class="edit-note__content f-sb-c-c">
+                    <input class="classic-input edit-note-input" type="text" placeholder="Edit your note...">
+                </div>
+                <div class="edit-note__buttons f-sb-c-r">
+                    <button class="edit-note__cancel edit-note__btn">CANCEL</button>
+                    <button class="edit-note__apply edit-note__btn">APPLY</button>
+                </div>
+            </div>
+
+            <button class="add-note f-c-c-r">
+                <img src="img/plus.png">
+            </button>
+            
+        </div>
+    </main>
 </body>
+
 </html>
