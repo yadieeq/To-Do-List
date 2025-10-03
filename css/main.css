@@ -171,7 +171,8 @@
     text-transform: uppercase;
 }
 
-.new-note__cancel .edit-note__cancel {
+.new-note__cancel,
+.edit-note__cancel {
     border: 1px solid var(--purple);
     color: var(--purple);
 }
@@ -213,4 +214,8 @@
 
 .note-delete:hover {
     background-image: url("../img/delete-hover.png");
+}
+
+.text-input {
+    width: 300px !important;
 }

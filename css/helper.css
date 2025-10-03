@@ -232,3 +232,12 @@ h4 {
     flex-direction: column;
 }
 /* ------- */
+.hide {
+    display: none !important;
+}
+.show {
+    display: block !important;
+}
+.show-f {
+    display: flex !important;
+}
